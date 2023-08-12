@@ -1,0 +1,139 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Oswald', sans-seriff;
+    background-image: url('marek-piwnicki-NfSg-lX_Gio-unsplash.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(170, 183, 197, 0.959);
+
+}
+
+@media screen and (min-width: 500px) {
+    #WeatherContent {
+
+        height: 500px;
+        width: 400px;
+        background-color: #e6dff4;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50px;
+        box-shadow: 12px 12px 15px #444141;
+        font-size: 20px;
+
+
+    }
+
+    input {
+        height: 30px;
+        width: 300px;
+        /* border-radius:20px; */
+        background: transparent;
+        border: 0px;
+        outline: 0px;
+        border-bottom: 3px solid rgba(1, 1, 11, 1);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    ::placeholder {
+        color: black;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #dis {
+        padding-top: 50px;
+
+    }
+
+    button {
+        margin-top: 30px;
+        height: 40px;
+        width: 120px;
+        font-size: 20px;
+        border-radius: 12px;
+        border: 0;
+        box-shadow: 3px 3px 3px rgba(1, 1, 11, 1);
+        outline: none;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #WeatherContent {
+
+        height: 300px;
+        width: 200px;
+        background-color: #0e83f1;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 25px;
+        box-shadow: 6px 6px 8px #444141;
+        font-size: 20px;
+
+
+
+    }
+
+    input {
+
+        height: 15px;
+        width: 150px;
+        /* border-radius:20px; */
+        background: transparent;
+        border: 0px;
+        outline: 0px;
+        border-bottom: 1.5px solid rgb(28, 32, 39);
+        text-align: center;
+        font-size: 12px;
+        margin-top: -12px;
+    }
+
+    ::placeholder {
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        /* font-weight: ; */
+    }
+
+    #dis {
+        padding-top: 50px;
+
+    }
+
+    button {
+        margin-top: 15px;
+        height: 20px;
+        width: 60px;
+        font-size: 10px;
+        border-radius: 6px;
+        border: 0;
+        box-shadow: 1.5px 1.5px 1.5px rgba(1, 1, 11, 1);
+        outline: none;
+        margin-top: 25px
+    }
+
+    #temp {
+        font-size: 13px;
+    }
+
+    img {
+        height: 50px;
+    }
+
+    #dis {
+        font-size: 12.5px;
+        margin-top: -15px;
+    }
+}
